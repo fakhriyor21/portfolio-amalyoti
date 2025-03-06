@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,8 @@
 
 <body>
     <!--Header section-->
-    <div class="container">
-        <header class="main-header">
+    <header class="main-header">
+        <div class="container">
             <div class="main-header__brand">
                 <a href="index.html">
                     <img src="images/logo.jpg" alt="logo">
@@ -98,18 +98,162 @@
         <!--End statistics-->
         <!--About me section-->
         <section id="about-me" class="main-section">
-            <h1>Men haqimda</h1>
+            <div class="about-me__image">
+                <img src="images/me.jpg" alt="">
+            </div>
+            <div class="about-me__info">
+                <h5 class="section-subtitle">
+                    Men haqimda
+                    <span class="blur_line"></span>
+                </h5>
+                <h3 class="section-title">
+                    Junior Fullstack developer & Data analist
+                </h3>
+                <p class="about-me__descrtiption">
+                    Men haqida nimadirlar . Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque est facere officia asperiores ut obcaecati officiis alias, vel facilis? Perspiciatis enim voluptatibus eligendi tempora earum maiores labore neque nulla.
+                </p>
+                <button type="button" class="button to_uppercase">
+                    Rezyume yuklab olish 
+                </button>
+            </div>
         </section>
+        <div class="clearfix"></div>
         <!--End about me section-->
+
+        
         <!--Services section-->
-        <section id="main-section" class="main-section">
-            <h1>Mening xizmatlarim</h1>
-        </section>
+        <div class="container">
+            <section id="services" class="services">
+                <h5 class="section-subtitle">
+                    Mening xizmatlarim
+                    <span class="blur_line"></span>
+                </h5>
+                <h2 class="section-title">
+                    Men taklif <br>
+                    qiladigan xizmatlar
+                </h2>
+                <div class="service__cards">
+                    <div class="service-card">
+                        <img class="service-card__icon" src="images/service1.avif" alt="logo bor 1-service">
+                        <h5 class="service-card__title">Web dizayn</h5>
+                        <p class="service-card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                        </p>
+                        <a href="#" class="service-card__link">
+                            Ko'proq
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <img class="service-card__icon" src="images/service1.avif" alt="logo bor 1-service">
+                        <h5 class="service-card__title">Web dizayn</h5>
+                        <p class="service-card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                        </p>
+                        <a href="#" class="service-card__link">
+                            Ko'proq
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <img class="service-card__icon" src="images/service1.avif" alt="logo bor 1-service">
+                        <h5 class="service-card__title">Web dizayn</h5>
+                        <p class="service-card__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+                        </p>
+                        <a href="#" class="service-card__link">
+                            Ko'proq
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
         <!--End services section-->
 
         <!--Clients section-->
-        <section id="main-section" class="main-section">
-            <h1>Mijozlar</h1>
+       <div class="container">
+        <section id="clients" class="clients">
+            <h5 class="section-subtitle">
+                Mijozlar
+                <span class="blur_line"></span>
+            </h5>
+            <h2 class="section-title"> Bizning mijozlarimiz</h2>
+           <div class="client-items">
+            <div class="client-item">
+                <div class="client-item__image">
+                    <img src="images/client1.png" alt="client1">    
+                </div>
+                <div class="client-item__info">
+                    <h4 class="client-item__name">Shohruzbek Rahmonov</h4>
+                    <p class="client-item__position">
+                        Biznesman
+                    </p>
+                    <p class="client-item__review">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, explicabo doloribus. Possimus, perspiciatis eius saepe rem cum impedit ea ratione sit, dolore illo laudantium, labore animi quas tempora dolores iste.   
+                    </p>
+                    <div class="client-item__rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </section>
+       </div>
+       <div class="clearfix"></div>
+        <!--End clients section-->
+
+        <!--Portfolio section-->
+        <div class="container">
+            <section id="portfolio" class="portfolio">
+                <div class="section-subtitle">
+                    Mening ishlarim
+                    <span class="blur_line"></span>
+                </div>
+               <div class="section-title">
+                Mening oxirgi <br>
+                ishlarimni ko'ring
+               </div>
+            </section>
+            <ul class="portfolio-filters">
+                <li class=" active">
+                    Hammasi
+                </li>
+                <li>
+                    Mashurlari
+                </li>
+                <li>
+                    Oxirgilari
+                </li>
+            </ul>         
+            <div class="portfolio-items">
+                <div class="portfolio-item portfolio-item-1">
+                    <img src="images/item1.jpg" alt="" class="portfolio-item__image">
+                    <div class="portfolio-item__owerlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4 class="portfolio-item__title">Portfolio item 1</h4>
+                        <p class="portfolio-item__category">Ishim haqida</p>
+                </div>
+            </div>
+            <div class="portfolio-item portfolio-item-2">
+                <img src="images/item2.jpg" alt="" class="portfolio-item__image">
+                <div class="portfolio-item__owerlay"></div>
+                <div class="portfolio-item__info">
+                    <h4 class="portfolio-item__title">Portfolio item 1</h4>
+                    <p class="portfolio-item__category">Ishim haqida</p>
+            </div>
+        </div>
+        <div class="portfolio-item portfolio-item-3">
+            <img src="images/item3.jpg" alt="" class="portfolio-item__image">
+            <div class="portfolio-item__owerlay"></div>
+            <div class="portfolio-item__info">
+                <h4 class="portfolio-item__title">Portfolio item 1</h4>
+                <p class="portfolio-item__category">Ishim haqida</p>
+        </div>
+    </div>
+        </div>
+        <!--End portfolio section-->
 </body>
 
 </html>
